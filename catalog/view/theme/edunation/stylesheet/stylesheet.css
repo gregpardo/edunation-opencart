@@ -90,9 +90,11 @@ label {
 #middle {
 	height: auto;
 	min-height: 500px;
-	padding-top: 50px;
+
 	margin-top: 5px;
 	margin-bottom: 25px;
+	padding: 30px;
+	padding-top: 50px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 	background-color: #f3f7fc;
