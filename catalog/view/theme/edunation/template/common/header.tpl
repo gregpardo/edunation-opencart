@@ -62,15 +62,8 @@ DD_belatedPNG.fix('#logo img');
   <?php } ?>
   <?php echo $language; ?>
   <?php //echo $currency; ?>
-  <?php echo $cart; ?>
-  <div id="search">
-    <div class="button-search"></div>
-    <?php if ($filter_name) { ?>
-    <input type="text" name="filter_name" value="<?php echo $filter_name; ?>" />
-    <?php } else { ?>
-    <input type="text" name="filter_name" value="<?php echo $text_search; ?>" onclick="this.value = '';" onkeydown="this.style.color = '#000000';" />
-    <?php } ?>
-  </div>
+  <?php //echo $cart; ?>
+
   <div id="welcome">
     <?php if (!$logged) { ?>
     <?php echo $text_welcome; ?>
@@ -79,7 +72,18 @@ DD_belatedPNG.fix('#logo img');
     <?php } ?>
   </div>
   <div class="links"><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></div>
-</div>
+
+  <div id="search">
+    <div class="button-search"></div>
+    <?php if ($filter_name) { ?>
+    <input type="text" name="filter_name" value="<?php echo $filter_name; ?>" />
+    <?php } else { ?>
+    <input type="text" name="filter_name" value="<?php echo $text_search; ?>" onclick="this.value = '';" onkeydown="this.style.color = '#000000';" />
+    <?php } ?>
+  </div>
+  
+ </div>
+
 <?php if ($categories) { ?>
 <div id="menu">
   <ul>
@@ -105,3 +109,4 @@ DD_belatedPNG.fix('#logo img');
 </div>
 <?php } ?>
 <div id="notification"></div>
+
