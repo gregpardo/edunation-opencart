@@ -109,4 +109,4 @@ DD_belatedPNG.fix('#logo img');
 </div>
 <?php } ?>
 <div id="notification"></div>
-
+<div id="middle">

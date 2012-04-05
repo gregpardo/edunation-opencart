@@ -1,3 +1,4 @@
+</div>
 <div id="footer">
   <div class="column">
     <h3><?php echo $text_information; ?></h3>
