@@ -1,0 +1,77 @@
+///////////////////////////////////////
+///    OpenCart V1.5.x TO 1.5.x     ///
+///      Upgrade Instructions       ///
+///     http://www.opencart.com     ///
+///////////////////////////////////////
+
+
+##########################################
+THIS IS FOR UPGRADING EXISTING OPENCART 1.5.x STORES ONLY
+THIS IS FOR UPGRADING EXISTING OPENCART 1.5.x STORES ONLY
+THIS IS FOR UPGRADING EXISTING OPENCART 1.5.x STORES ONLY
+THIS IS FOR UPGRADING EXISTING OPENCART 1.5.x STORES ONLY
+THIS IS FOR UPGRADING EXISTING OPENCART 1.5.x STORES ONLY
+THIS IS FOR UPGRADING EXISTING OPENCART 1.5.x STORES ONLY
+THIS IS FOR UPGRADING EXISTING OPENCART 1.5.x STORES ONLY
+THIS IS FOR UPGRADING EXISTING OPENCART 1.5.x STORES ONLY
+##########################################
+
+##########################################
+DO NOT USE THIS UPGRADE TO CONVERT FROM 1.4.x to 1.5.x!!
+DO NOT USE THIS UPGRADE TO CONVERT FROM 1.4.x to 1.5.x!!
+DO NOT USE THIS UPGRADE TO CONVERT FROM 1.4.x to 1.5.x!!
+DO NOT USE THIS UPGRADE TO CONVERT FROM 1.4.x to 1.5.x!!
+DO NOT USE THIS UPGRADE TO CONVERT FROM 1.4.x to 1.5.x!!
+DO NOT USE THIS UPGRADE TO CONVERT FROM 1.4.x to 1.5.x!!
+DO NOT USE THIS UPGRADE TO CONVERT FROM 1.4.x to 1.5.x!!
+If you have 1.4.x, You need to use the script here:
+http://forum.opencart.com/viewtopic.php?f=2&t=36519
+##########################################
+
+
+-------
+UPGRADE FOR 1.5.x to 1.5.x
+-------
+
+STEP 1. BACKUP YOUR EXISTING STORE FILES AND DATABASE!!!
+
+STEP 2. Upload ALL new files on top of your current install execpt your config.php and admin/config.php
+
+STEP 3. Browse to http://www.yourstore.com/shop/install
+
+STEP 4. The installer should direct you to the upgrade process.
+
+STEP 5. Click "Upgrade". After a few seconds you should see the upgrade success page.
+
+STEP 6. Clear any cookies in your browser to avoid getting token errors.
+
+STEP 7. Load the admin page & press Ctrl+F5 twice to force the browser to update the css changes.
+
+STEP 8. Goto Admin->Users->User Groups and Edit the Top Adminstrator group. Check All boxes.
+
+STEP 9. Goto Admin->System->Settings.
+	- Be sure to set the "Use Store Tax Address" and "Use Customer Tax Address" to "Shipping Address" (for most users) to ensure taxes work	
+	- Update any other fields and click save, even if nothing changed.
+
+Step 10. Goto Admin->System->Localisation->Tax Rates->Edit Existing rates
+	- Be sure to add a Tax Rate Name if empty
+	- Be sure to check the boxes for the customer groups that are affected by this tax rate
+
+STEP 11. Load the store front & press Ctrl+F5 twice to force the browser to update the css changes.
+
+
+
+Troubleshooting:
+------------------------------
+1. If you have any upgrade script errors, post them in the forum
+2. If you have 3rd party addon errors, contact the mod author for an update.
+3. If you find bugs, check the "official" bug thread for this version of Opencart
+Many bugs may have already been reported and fixes will be offered in the first post of this thread.
+You should always visit this thread immediately after a fresh upgrade to see if there are any immediate bug fixes
+If nobody has reported your bug, then please report it.
+
+
+
+That's It!
+OpenCart Dev Team
+
