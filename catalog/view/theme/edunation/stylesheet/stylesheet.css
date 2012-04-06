@@ -500,10 +500,28 @@ label {
 #menu > ul > li > div > ul > li > a {
 	color: #25A;
 }
-.breadcrumb {
-	color: #CCCCCC;
-	margin-bottom: 10px;
+.bread_container {
+	position: relative;
 }
+.breadcrumb {
+	position: absolute;
+	left: 6px;
+	top: -34px;
+}
+
+.breadcrumb, .breadcrumb a {
+	color: #AAA;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+.breadcrumb a:nth-last-child(1)  {
+	color: #9AF;
+	text-decoration: none;
+	font-size: 16px;
+}
+
 .success, .warning, .attention, .information {
 	padding: 10px 10px 10px 33px;
 	margin-bottom: 15px;
