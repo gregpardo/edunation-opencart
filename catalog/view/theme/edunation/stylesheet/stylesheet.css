@@ -380,17 +380,17 @@ label {
 #header .links {
 	position: absolute;
 	right: 0px;
-	bottom: 3px;
-	font-size: 10px;
+	bottom: -36px;
+	font-size: 12px;
 	padding-right: 10px;
 }
 #header .links a {
 	float: left;
 	display: block;
 	padding: 0px 0px 0px 7px;
-	color: #38B0E3;
+	color: #25A;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 14px;
 }
 #header .links a + a {
 	margin-left: 8px;
