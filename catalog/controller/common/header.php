@@ -1,7 +1,11 @@
 <?php   
 class ControllerCommonHeader extends Controller {
 	protected function index() {
-		$this->data['title'] = $this->document->getTitle();
+		$this->data['title'] = "eduNation - ".$this->document->getTitle();
+		// Warning ugly hack below :)
+		if ($this->data['title'] == "eduNation - eduNation") {
+			$this->data['title'] = "eduNation - Home";
+		}
 		
 		if (isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1'))) {
 			$this->data['base'] = $this->config->get('config_ssl');

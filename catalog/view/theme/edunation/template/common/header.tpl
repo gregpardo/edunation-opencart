@@ -53,10 +53,11 @@ DD_belatedPNG.fix('#logo img');
 		<?php } ?>
 	</div>
 </div>
+
 <div id="container">
-
+<div id="notification"></div>
 <div id="header">
-
+	
   <?php if ($logo) { ?>
   <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
   <?php } ?>
@@ -111,5 +112,5 @@ DD_belatedPNG.fix('#logo img');
   </ul>
 </div>
 <?php } ?>
-<div id="notification"></div>
+
 <div id="middle">
